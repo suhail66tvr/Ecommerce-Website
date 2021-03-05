@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="Text-center">ADD PRODUCTS</h2>
+
+            <form action="/admin/add-products" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="exampleInputName">Name</label>
+                    <input type="text" class="form-control" name="Name" placeholder="Item Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Category</label>
+                    <input type="text" class="form-control" name="Category" placeholder="Item Category">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Price</label>
+                    <input type="text" class="form-control" name="Price" placeholder="Item Price">
+                </div>  
+
+                <div class="form-group">
+                    <label for="">Description</label>
+                    <input type="text" class="form-control" name="Description" placeholder="Item Description">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Item Image file</label>
+                    <input type="file" name="Image" class="form-control-file">
+                </div>
+
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+       </div>
